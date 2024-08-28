@@ -1,0 +1,65 @@
+body{
+    background-color: #000000;
+}
+
+nav{
+    display: flex; /*alinha os elementos horizontalmente. Assim nav se comporta como flexbox, perm
+    itindo um controle mais preciso do layout*/
+    justify-content: space-between; /*Distribui os elementos igualmente*/
+    align-items: center; /*alinha verticalmente*/
+    padding: 20px;
+   border-bottom: 2px solid purple;
+
+}
+
+
+
+nav a {
+    margin: 0 10px; /*adiciona margem entre os links*/
+    text-decoration: none; /* remove o sublinhado*/
+    color: #FFFFFF; /*define a cor do texto*/
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    font-family: Poppins, Roboto, Open Sans - Negrito;
+}
+
+nav h1{
+    margin: 0 10px;
+
+}
+
+#home{
+    order: 1; /*define a ordem do elemento*/
+
+}
+
+#menu{
+    order: 2;
+    display: flex;
+    gap: 20px; /*espaçamento entre os itens do menu*/
+}
+
+nav a:hover{
+    background-color: #2980B9;
+}
+
+#home h1{
+    margin: 0;
+}
+
+#botão-contrate{
+    order: 3;
+    padding: 10px 20px;
+    background-color: #2980B9 ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: Poppins, Roboto, Open Sans - Negrito;
+}
+
+#nome_principal{
+
+    color: #FFD700;
+    font-family: Poppins, Roboto, Open Sans - Negrito;
+}
