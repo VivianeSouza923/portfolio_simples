@@ -1,14 +1,17 @@
 body{
-    background-color: #000000;
+    background-color: black;
+    color: #FFF;
 }
 
 nav{
+    
     display: flex; /*alinha os elementos horizontalmente. Assim nav se comporta como flexbox, perm
     itindo um controle mais preciso do layout*/
     justify-content: space-between; /*Distribui os elementos igualmente*/
     align-items: center; /*alinha verticalmente*/
     padding: 20px;
-   border-bottom: 2px solid purple;
+    border-bottom: 3px solid purple;
+    
 
 }
 
@@ -62,4 +65,29 @@ nav a:hover{
 
     color: #FFD700;
     font-family: Poppins, Roboto, Open Sans - Negrito;
+}
+
+#inicio{
+
+    color: #2980B9 ;
+    font-family: Poppins, Roboto, Open Sans - Negrito;
+    padding: 10px 50px;
+
+
+}
+
+.secao{
+    
+    padding: 10px 40px;
+    margin-bottom: 40px;
+    color: #FFF; /* Texto branco */ 
+}
+
+.secao h2{
+    color: #2980B9; /* Azul marinho */
+  margin-bottom: 20px;
+}
+
+.secao p {
+    line-height: 1.6;
 }
